@@ -10,8 +10,9 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\ProducerBundle\Manager\Front;
+namespace WellCommerce\Bundle\ProducerBundle\Manager;
 
+use WellCommerce\Bundle\CoreBundle\Manager\AbstractManager;
 use WellCommerce\Bundle\CoreBundle\Manager\Front\AbstractFrontManager;
 use WellCommerce\Component\DataSet\Conditions\Condition\Eq;
 use WellCommerce\Component\DataSet\Conditions\ConditionsCollection;
@@ -21,7 +22,7 @@ use WellCommerce\Component\DataSet\Conditions\ConditionsCollection;
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class ProducerManager extends AbstractFrontManager
+class ProducerManager extends AbstractManager
 {
     /**
      * Returns a collection of dynamic conditions
