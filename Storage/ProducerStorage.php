@@ -10,16 +10,16 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\ProducerBundle\Context\Front;
+namespace WellCommerce\Bundle\ProducerBundle\Storage\Front;
 
 use WellCommerce\Bundle\ProducerBundle\Entity\ProducerInterface;
 
 /**
- * Class ProducerContext
+ * Class ProducerStorage
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class ProducerContext implements ProducerContextInterface
+class ProducerStorage implements ProducerStorageInterface
 {
     /**
      * @var ProducerInterface
